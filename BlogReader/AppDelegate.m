@@ -129,4 +129,6 @@
     }
 }
 
+/*Notes: UINavigationController object controller begins with rootViewController. Other viewControllers are added higherarchially on the stack in an NSArray last in + first out. Has Property topViewController and visibleViewController. Points to same view controller unless there is a "Modal" view controller: visible = modal view controller, top = last view controller pushed on stack. */
+
 @end

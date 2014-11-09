@@ -27,9 +27,9 @@
 
 - (void)configureView {
     // Update the user interface for the detail item.
-    if (self.detailItem) {
+    /*if (self.detailItem) {
         self.detailDescriptionLabel.text = [[self.detailItem valueForKey:@"timeStamp"] description];
-    }
+    } Changed from default text*/
 }
 
 - (void)viewDidLoad {

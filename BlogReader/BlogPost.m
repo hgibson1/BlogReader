@@ -10,4 +10,13 @@
 
 @implementation BlogPost
 
+/* Example of a custom setter method
+ - (id)initWithTitle:(NSString *)title {
+    self = [super init]; //sends initalied instance of BlogPost using method in parent class NSObject
+    if ( self) {
+        //executes if self returns a valid instance of BlogPost
+    }
+    return self;
+}
+*/
 @end

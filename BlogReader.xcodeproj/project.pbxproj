@@ -16,6 +16,7 @@
 		2D59D64019FC30EA0071910D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D59D63F19FC30EA0071910D /* Images.xcassets */; };
 		2D59D64319FC30EA0071910D /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2D59D64119FC30EA0071910D /* LaunchScreen.xib */; };
 		2D59D64F19FC30EA0071910D /* BlogReaderTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D59D64E19FC30EA0071910D /* BlogReaderTests.m */; };
+		2D59D65A19FC41070071910D /* BlogPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D59D65919FC41070071910D /* BlogPost.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +46,8 @@
 		2D59D64819FC30EA0071910D /* BlogReaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BlogReaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D59D64D19FC30EA0071910D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2D59D64E19FC30EA0071910D /* BlogReaderTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlogReaderTests.m; sourceTree = "<group>"; };
+		2D59D65819FC41070071910D /* BlogPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BlogPost.h; sourceTree = "<group>"; };
+		2D59D65919FC41070071910D /* BlogPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BlogPost.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +93,8 @@
 				2D59D63119FC30EA0071910D /* AppDelegate.m */,
 				2D59D63619FC30EA0071910D /* MasterViewController.h */,
 				2D59D63719FC30EA0071910D /* MasterViewController.m */,
+				2D59D65819FC41070071910D /* BlogPost.h */,
+				2D59D65919FC41070071910D /* BlogPost.m */,
 				2D59D63919FC30EA0071910D /* DetailViewController.h */,
 				2D59D63A19FC30EA0071910D /* DetailViewController.m */,
 				2D59D63C19FC30EA0071910D /* Main.storyboard */,
@@ -228,6 +233,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				2D59D63B19FC30EA0071910D /* DetailViewController.m in Sources */,
+				2D59D65A19FC41070071910D /* BlogPost.m in Sources */,
 				2D59D63819FC30EA0071910D /* MasterViewController.m in Sources */,
 				2D59D63219FC30EA0071910D /* AppDelegate.m in Sources */,
 				2D59D62F19FC30EA0071910D /* main.m in Sources */,
@@ -353,6 +359,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BlogReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -363,6 +370,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = BlogReader/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
